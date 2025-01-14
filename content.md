@@ -35,7 +35,7 @@ Yi Xing, PhD, established the Center for Computational and Genomic Medicine at C
 There are over 300 million people with rare genetic diseases, and many of those diseases are currently untreatable. The Miner laboratory generates model systems, gene therapies, and small molecular inhibitors designed for treating some of the most devastating human autoimmune diseases caused by single-gene mutations. By defining the underlying mechanisms of those diseases, and by developing novel therapeutics, we have created new opportunities for the treatment of autoimmunity, cancer, and premature cellular senescence / aging.
 
 ### 12:30pm – 1:00pm
-**Arthur Howe / Abdolmohamad Rostami**
+**Arthur Howe, Abdolmohamad Rostami**
 
 We are developing the first disease-halting therapy for multiple sclerosis (MS), which could also apply to other autoimmune diseases. Our strategy utilizes oligodendrocyte-derived extracellular vesicles containing multiple myelin antigens, aiming to induce immune tolerance and treat MS without the severe side effects of current immunosuppressive drugs.
 
@@ -47,7 +47,7 @@ My research focuses on understanding and manipulating immune cells for precision
 ## 2023
 
 ### 9:15am – 9:45am
-**Mark Sellmyer & Derek Miller**
+**Mark Sellmyer, Derek Miller**
 
 Vellum Biosciences, an UPSTART spin-out from the University of Pennsylvania, has developed iTAG, a patent-protected imaging probe that provides a GPS-like tracking and monitoring of vectors used to deliver cell and gene therapies. These vectors, such as T cells, NK cells and AAVs, which we refer to as "living drug", are unlike traditional biologics in that they expand, contract and persist in various tissues in ways that cannot be comprehensively measured over time by traditional methods. Vellum's iTAG has integrated with virtually any living drug to characterize its cellular trafficking over time using PET imaging, which allows for a non-invasive, whole-body window by which researchers and clinicians can monitor, measure, and ultimately modify cell and gene therapies. Optimizing and characterizing these living drugs before entering the clinic can improve the probability of success of these clinical candidates.
 
