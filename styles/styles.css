@@ -1,0 +1,128 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.year-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.year-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.year-header:hover {
+    background-color: #34495e;
+}
+
+.year-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: white;
+}
+
+.year-content.active {
+    max-height: 2000px;
+    transition: max-height 0.5s ease-in;
+}
+
+.year-inner {
+    padding: 20px;
+}
+
+.session {
+    margin-bottom: 30px;
+}
+
+.session:last-child {
+    margin-bottom: 0;
+}
+
+.session-time {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.session h2 {
+    color: #2c3e50;
+    margin: 0 0 10px 0;
+}
+
+.session p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+.lunch {
+    text-align: center;
+    color: #16a085;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #eee;
+    margin: 20px 0;
+}
+
+.coming-soon {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.coming-soon h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.coming-soon p {
+    color: #666;
+}
+
+/* Arrow indicator */
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.3s;
+}
+
+.year-header.active .arrow {
+    transform: rotate(-135deg);
+} 
