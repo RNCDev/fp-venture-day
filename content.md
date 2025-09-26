@@ -13,7 +13,7 @@ Pranam Chatterjee's research at the Chatterjee Lab, also known as the Programmab
 ### 9:15am – 9:45am
 **Jacob Brenner**
 
-Dr. Jacob Brenner is a bioengineer and critical care physician, serving as the Principal Investigator of the Brenner Bioengineering Lab at the University of Pennsylvania. His research focuses on developing novel therapeutics using nanomedicine and genetic medicine. Dr. Brenner has a track record of inventing medical devices and nanomedicine technologies that have progressed to clinical studies and commercialization. He holds an MD and PhD from Stanford University and completed his postdoctoral training at the University of Pennsylvania.
+Jacob Brenner is a bioengineer and critical care physician, serving as the Principal Investigator of the Brenner Bioengineering Lab at the University of Pennsylvania. His research focuses on developing novel therapeutics using nanomedicine and genetic medicine. Dr. Brenner has a track record of inventing medical devices and nanomedicine technologies that have progressed to clinical studies and commercialization. He holds an MD and PhD from Stanford University and completed his postdoctoral training at the University of Pennsylvania.
 
 ### 9:45am – 10:15am
 **Topher Brooke**
@@ -23,12 +23,12 @@ Topher Brooke is the CEO of MasterSwitch Bio, a biotech startup based in Ambler,
 ### 10:15am – 10:45am
 **Kara Spiller**
 
-Dr. Kara Spiller is a Professor in Drexel University's School of Biomedical Engineering, Science, and Health Systems. Her research interests include the role of immune cells in tissue repair and regeneration, the design of immunomodulatory biomaterials, and international engineering education. Dr. Spiller's work is funded by the NIH, the NSF, and private foundations. She has received several awards, including a Fulbright fellowship, the NSF CAREER award, and the United States Department of State ASPIRE prize.
+Kara Spiller is a Professor in Drexel University's School of Biomedical Engineering, Science, and Health Systems. Her research interests include the role of immune cells in tissue repair and regeneration, the design of immunomodulatory biomaterials, and international engineering education. Dr. Spiller's work is funded by the NIH, the NSF, and private foundations. She has received several awards, including a Fulbright fellowship, the NSF CAREER award, and the United States Department of State ASPIRE prize.
 
 ### 10:45am – 11:15am
 **Matthew Hayes**
 
-Dr. Matthew R. Hayes is the Albert J. Stunkard Professor in Psychiatry at the Perelman School of Medicine, University of Pennsylvania. He also serves as the Vice Chair of Basic and Translational Neuroscience in the Department of Psychiatry and directs the Molecular and Neural Basis of Psychiatric Disease Section. Dr. Hayes's research aims to identify and characterize neural signaling pathways that control food intake and body weight regulation, with the goal of developing treatments for obesity and related co-morbidities.
+Matthew R. Hayes is the Albert J. Stunkard Professor in Psychiatry at the Perelman School of Medicine, University of Pennsylvania. He also serves as the Vice Chair of Basic and Translational Neuroscience in the Department of Psychiatry and directs the Molecular and Neural Basis of Psychiatric Disease Section. Dr. Hayes's research aims to identify and characterize neural signaling pathways that control food intake and body weight regulation, with the goal of developing treatments for obesity and related co-morbidities.
 
 ### 11:15am – 11:45am
 **Speaker TBD**
