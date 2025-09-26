@@ -1,8 +1,43 @@
 # Venture Day Archives
 
 ## 2025
-status: coming_soon
-message: Details for Venture Day 2025 will be announced.
+
+### 8:30am – 8:45am
+**Opening Remarks**
+
+### 8:45am – 9:15am
+**Pranam Chatterjee**
+
+Pranam Chatterjee's research at the Chatterjee Lab, also known as the Programmable Biology Group, focuses on creating novel generative AI algorithms and experimental methods to design new molecules for therapeutic use and bioremediation.
+
+### 9:15am – 9:45am
+**Speaker TBD**
+
+[Speaker information to be announced]
+
+### 9:45am – 10:15am
+**Speaker TBD**
+
+[Speaker information to be announced]
+
+### 10:15am – 10:45am
+**Speaker TBD**
+
+[Speaker information to be announced]
+
+### 10:45am – 11:15am
+**Speaker TBD**
+
+[Speaker information to be announced]
+
+### 11:15am – 11:45am
+**Speaker TBD**
+
+[Speaker information to be announced]
+
+### 11:45am – 1:00pm
+**LUNCH**
+
 
 ## 2024
 
