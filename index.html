@@ -7,7 +7,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>Venture Day Archives</title>
-    <!-- Version 2.6.0 - 2024-09-27 - Bypass Ad Blockers -->
+    <!-- Version 2.7.0 - 2024-09-27 - Bypass Ad Blockers -->
     <style>
         * {
             margin: 0;
@@ -68,9 +68,14 @@
         }
         
         h1 {
-            font-size: 2rem;
-            font-weight: 600;
+            font-size: 4.0rem;
+            font-weight: 800;
             margin: 0;
+            color: rgba(255, 255, 255, 0.4);
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            line-height: 0.8;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
         }
         
         .version {
@@ -108,6 +113,29 @@
             justify-content: space-between;
             align-items: center;
             transition: background 0.2s ease;
+        }
+        
+        .year-header-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .year-supporters {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .year-supporter-link {
+            color: #2c3e50 !important;
+            text-decoration: none !important;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+        
+        .year-supporter-link:hover {
+            color: #007bff !important;
         }
         
         .year-header:hover {
@@ -193,13 +221,20 @@
             }
             
             h1 {
-                font-size: 1.5rem;
+                font-size: 3rem;
+                line-height: 0.85;
             }
             
-            .supporter-link {
-                display: block !important;
-                margin: 5px auto;
-                max-width: 200px;
+            .year-supporters {
+                flex-direction: column;
+                gap: 12px;
+                margin-top: 10px;
+            }
+            
+            .year-header-left {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
             }
             
             .version {
@@ -213,18 +248,21 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="version">v2.6.0</div>
-            <div class="supporters">
-                <a href="https://blabscira.com/" target="_blank" class="supporter-link">B+LABS</a>
-                <a href="https://www.wsgr.com/en/people/matthew-j-meyer.html" target="_blank" class="supporter-link">WILSON SONSINI</a>
-            </div>
+            <div class="version">v2.7.0</div>
             <h1>Venture Day Archives</h1>
         </div>
         
         <div class="content">
             <div class="year-section">
                 <div class="year-header" onclick="toggleYear(this)">
-                    <span>2025</span>
+                    <div class="year-header-left">
+                        <span>2025</span>
+                        <div class="year-supporters">
+                            <a href="https://blabscira.com/" target="_blank" class="year-supporter-link">B+LABS</a>
+                            <a href="https://www.wsgr.com/en/people/matthew-j-meyer.html" target="_blank" class="year-supporter-link">WILSON SONSINI</a>
+                            <a href="https://www.franklinparkllc.com/" target="_blank" class="year-supporter-link">FRANKLIN PARK</a>
+                        </div>
+                    </div>
                     <span class="arrow">▶</span>
                 </div>
                 <div class="year-content">
