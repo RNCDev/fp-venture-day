@@ -1,3 +1,46 @@
+---
+version: "1.0.2"
+last_updated: "2024-09-27"
+years:
+  2025:
+    supporters:
+      - name: "B+LABS"
+        url: "https://blabscira.com/"
+      - name: "WILSON SONSINI"
+        url: "https://www.wsgr.com/en/people/matthew-j-meyer.html"
+      - name: "FRANKLIN PARK"
+        url: "https://www.franklinparkllc.com/"
+  2024:
+    supporters:
+      - name: "FRANKLIN PARK"
+        url: "https://www.franklinparkllc.com"
+      - name: "DAKOTA STUDIO"
+        url: "https://www.dakota.com/team"
+  2023:
+    supporters:
+      - name: "FRANKLIN PARK"
+        url: "https://www.franklinparkllc.com"
+      - name: "DAKOTA STUDIO"
+        url: "https://www.dakota.com/team"
+  2022:
+    supporters:
+      - name: "FRANKLIN PARK"
+        url: "https://www.franklinparkllc.com"
+      - name: "DAKOTA STUDIO"
+        url: "https://www.dakota.com/team"
+      - name: "ROBERT MORIER"
+        url: "https://www.linkedin.com/in/robertlmorier"
+  2021:
+    supporters:
+      - name: "FRANKLIN PARK"
+        url: "https://www.franklinparkllc.com"
+      - name: "SCIENCE CENTER"
+        url: "https://sciencecenter.org/quorum"
+      - name: "EAMON GALLAGHER"
+        url: "https://www.linkedin.com/in/eamongallagher"
+
+---
+
 # Venture Day Archives
 
 ## 2025
@@ -6,14 +49,14 @@
 **Opening Remarks**
 
 ### 8:45am – 9:15am
-**Pranam Chatterjee**
-
-Pranam Chatterjee's research at the Chatterjee Lab, also known as the Programmable Biology Group, focuses on creating novel generative AI algorithms and experimental methods to design new molecules for therapeutic use and bioremediation.
-
-### 9:15am – 9:45am
 **Jacob Brenner**
 
 Jacob Brenner is a bioengineer and critical care physician, serving as the Principal Investigator of the Brenner Bioengineering Lab at the University of Pennsylvania. His research focuses on developing novel therapeutics using nanomedicine and genetic medicine. Dr. Brenner has a track record of inventing medical devices and nanomedicine technologies that have progressed to clinical studies and commercialization. He holds an MD and PhD from Stanford University and completed his postdoctoral training at the University of Pennsylvania.
+
+### 9:15am – 9:45am
+**Pranam Chatterjee**
+
+Pranam Chatterjee's research at the Chatterjee Lab, also known as the Programmable Biology Group, focuses on creating novel generative AI algorithms and experimental methods to design new molecules for therapeutic use and bioremediation.
 
 ### 9:45am – 10:15am
 **Topher Brooke**
