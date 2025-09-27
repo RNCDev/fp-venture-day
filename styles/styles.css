@@ -16,10 +16,45 @@ body {
     padding: 20px;
 }
 
-h1 {
+.header {
     text-align: center;
-    color: #2c3e50;
     margin-bottom: 40px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.sponsor-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #2c3e50;
+    text-decoration: none;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sponsor-link:hover {
+    background-color: #2c3e50;
+    color: white;
+    border-color: #2c3e50;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 2.2rem;
 }
 
 .year-section {
@@ -62,7 +97,23 @@ h1 {
 }
 
 .session {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+}
+
+.session:nth-child(even) {
+    border-left-color: #e74c3c;
+}
+
+.session:nth-child(3n) {
+    border-left-color: #f39c12;
+}
+
+.session:nth-child(4n) {
+    border-left-color: #9b59b6;
 }
 
 .session:last-child {
@@ -72,17 +123,22 @@ h1 {
 .session-time {
     color: #e74c3c;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .session h2 {
     color: #2c3e50;
-    margin: 0 0 10px 0;
+    margin: 0 0 8px 0;
+    font-size: 1.3rem;
 }
 
 .session p {
     line-height: 1.6;
     margin: 0;
+    color: #555;
 }
 
 .lunch {
