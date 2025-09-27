@@ -97,48 +97,36 @@ h1 {
 }
 
 .session {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #f8f9fa;
-    border-radius: 6px;
-    border-left: 4px solid #3498db;
-}
-
-.session:nth-child(even) {
-    border-left-color: #e74c3c;
-}
-
-.session:nth-child(3n) {
-    border-left-color: #f39c12;
-}
-
-.session:nth-child(4n) {
-    border-left-color: #9b59b6;
+    margin-bottom: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
 }
 
 .session:last-child {
     margin-bottom: 0;
+    border-bottom: none;
 }
 
 .session-time {
-    color: #e74c3c;
+    color: #d2691e;
     font-weight: bold;
-    margin-bottom: 8px;
-    font-size: 0.9rem;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .session h2 {
     color: #2c3e50;
-    margin: 0 0 8px 0;
-    font-size: 1.3rem;
+    margin: 0 0 4px 0;
+    font-size: 1.2rem;
 }
 
 .session p {
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
     color: #555;
+    font-size: 0.9rem;
 }
 
 .lunch {
