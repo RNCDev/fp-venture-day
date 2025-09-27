@@ -1,15 +1,15 @@
 ---
-version: "1.0.2"
+version: "1.0.4"
 last_updated: "2024-09-27"
 years:
   2025:
     supporters:
+      - name: "FRANKLIN PARK"
+        url: "https://www.franklinparkllc.com/"
       - name: "B+LABS"
         url: "https://blabscira.com/"
       - name: "WILSON SONSINI"
         url: "https://www.wsgr.com/en/people/matthew-j-meyer.html"
-      - name: "FRANKLIN PARK"
-        url: "https://www.franklinparkllc.com/"
   2024:
     supporters:
       - name: "FRANKLIN PARK"
