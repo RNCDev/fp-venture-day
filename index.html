@@ -7,7 +7,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>Venture Day Archives</title>
-    <!-- Version 2.5.0 - 2024-09-27 - Debug Sponsor Buttons -->
+    <!-- Version 2.6.0 - 2024-09-27 - Bypass Ad Blockers -->
     <style>
         * {
             margin: 0;
@@ -40,12 +40,12 @@
             position: relative;
         }
         
-        .sponsors {
+        .supporters {
             margin-bottom: 20px;
             text-align: center;
         }
         
-        .sponsor-link {
+        .supporter-link {
             display: inline-block !important;
             margin: 0 8px;
             padding: 8px 16px;
@@ -62,7 +62,7 @@
             z-index: 999 !important;
         }
         
-        .sponsor-link:hover {
+        .supporter-link:hover {
             background: #f8f9fa !important;
             transform: translateY(-1px);
         }
@@ -196,7 +196,7 @@
                 font-size: 1.5rem;
             }
             
-            .sponsor-link {
+            .supporter-link {
                 display: block !important;
                 margin: 5px auto;
                 max-width: 200px;
@@ -213,10 +213,10 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="version">v2.5.0</div>
-            <div class="sponsors">
-                <a href="https://blabscira.com/" target="_blank" class="sponsor-link" style="display: inline-block !important; visibility: visible !important; opacity: 1 !important; background: white !important; color: #2c3e50 !important; padding: 8px 16px !important; margin: 0 8px !important; text-decoration: none !important; border-radius: 4px !important; font-size: 14px !important; font-weight: 600 !important;">B+LABS</a>
-                <a href="https://www.wsgr.com/en/people/matthew-j-meyer.html" target="_blank" class="sponsor-link" style="display: inline-block !important; visibility: visible !important; opacity: 1 !important; background: white !important; color: #2c3e50 !important; padding: 8px 16px !important; margin: 0 8px !important; text-decoration: none !important; border-radius: 4px !important; font-size: 14px !important; font-weight: 600 !important;">WILSON SONSINI</a>
+            <div class="version">v2.6.0</div>
+            <div class="supporters">
+                <a href="https://blabscira.com/" target="_blank" class="supporter-link">B+LABS</a>
+                <a href="https://www.wsgr.com/en/people/matthew-j-meyer.html" target="_blank" class="supporter-link">WILSON SONSINI</a>
             </div>
             <h1>Venture Day Archives</h1>
         </div>
@@ -501,18 +501,18 @@
                 toggleYear(firstYear);
             }
             
-            // Debug sponsor buttons
-            const sponsorLinks = document.querySelectorAll('.sponsor-link');
-            console.log('Sponsor links found:', sponsorLinks.length);
-            sponsorLinks.forEach((link, index) => {
-                console.log(`Sponsor ${index + 1}:`, link.textContent, link.style.display);
+            // Debug supporter buttons
+            const supporterLinks = document.querySelectorAll('.supporter-link');
+            console.log('Supporter links found:', supporterLinks.length);
+            supporterLinks.forEach((link, index) => {
+                console.log(`Supporter ${index + 1}:`, link.textContent, link.style.display);
             });
         });
         
-        // Force sponsor buttons to be visible
+        // Force supporter buttons to be visible
         window.addEventListener('load', function() {
-            const sponsorLinks = document.querySelectorAll('.sponsor-link');
-            sponsorLinks.forEach(link => {
+            const supporterLinks = document.querySelectorAll('.supporter-link');
+            supporterLinks.forEach(link => {
                 link.style.display = 'inline-block';
                 link.style.visibility = 'visible';
                 link.style.opacity = '1';
