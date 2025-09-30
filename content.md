@@ -1,5 +1,5 @@
 ---
-version: "1.1.0"
+version: "1.1.1"
 last_updated: "2024-09-27"
 years:
   2025:
@@ -56,7 +56,7 @@ Jacob Brenner is a bioengineer and critical care physician, serving as the Princ
 ### 9:15am – 9:45am
 **Pranam Chatterjee**
 
-Pranam Chatterjee's research at the Chatterjee Lab, also known as the Programmable Biology Group, focuses on creating novel generative AI algorithms and experimental methods to design new molecules for therapeutic use and bioremediation.
+Pranam Chatterjee is an Assistant Professor of Bioengineering and Computer and Information Science at the University of Pennsylvania. His Programmable Biology Group develops new generative models for the de novo design of peptide and protein biologics, spanning from algorithmic theory to pre-clinical validation in vitro and in vivo. The lab specifically develops therapeutic interventions for rare neurodegenerative diseases, pediatric sarcomas, viral infections, infertility, and substance use disorders. Having received his SB, SM, and PhD from MIT, Professor Chatterjee has received the NIH’s MIRA Award, the Hartwell Individual Biomedical Research Award, and multiple NIH and foundation grants for his work. He has also co-founded Gameto, Inc., UbiquiTx, Inc., and AtomBioworks, Inc., which translates his research into fertility-related solutions, cancer therapeutics, and RNA medicines, respectively.
 
 ### 9:45am – 10:15am
 **Topher Brooke**
