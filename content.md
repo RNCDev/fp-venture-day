@@ -1,5 +1,5 @@
 ---
-version: "1.0.4"
+version: "1.1.0"
 last_updated: "2024-09-27"
 years:
   2025:
@@ -74,9 +74,9 @@ Kara Spiller is a Professor in Drexel University's School of Biomedical Engineer
 Matthew R. Hayes is the Albert J. Stunkard Professor in Psychiatry at the Perelman School of Medicine, University of Pennsylvania. He also serves as the Vice Chair of Basic and Translational Neuroscience in the Department of Psychiatry and directs the Molecular and Neural Basis of Psychiatric Disease Section. Dr. Hayes's research aims to identify and characterize neural signaling pathways that control food intake and body weight regulation, with the goal of developing treatments for obesity and related co-morbidities.
 
 ### 11:15am – 11:45am
-**Speaker TBD**
+**Xiaoqiong Xia**
 
-[Speaker information to be announced]
+Xiaoqiong Xia is a Postdoctoral Researcher in the Department of Psychiatry's Translational Neuroscience Program at the Perelman School of Medicine, University of Pennsylvania. She is also a Postdoctoral Fellow in the De La Fuente Lab. Dr. Xia's research focuses on translational neuroscience, aiming to bridge the gap between basic neuroscience discoveries and clinical applications in psychiatry, as well as developing innovative technologies to combat infectious diseases.
 
 ### 11:45am – 1:00pm
 **LUNCH**
