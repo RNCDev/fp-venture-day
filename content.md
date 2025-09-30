@@ -1,5 +1,5 @@
 ---
-version: "1.1.2"
+version: "1.1.4"
 last_updated: "2024-09-27"
 years:
   2025:
@@ -54,9 +54,9 @@ years:
 Pranam Chatterjee is an Assistant Professor of Bioengineering and Computer and Information Science at the University of Pennsylvania. His Programmable Biology Group develops new generative models for the de novo design of peptide and protein biologics, spanning from algorithmic theory to pre-clinical validation in vitro and in vivo. The lab specifically develops therapeutic interventions for rare neurodegenerative diseases, pediatric sarcomas, viral infections, infertility, and substance use disorders. Having received his SB, SM, and PhD from MIT, Professor Chatterjee has received the NIH's MIRA Award, the Hartwell Individual Biomedical Research Award, and multiple NIH and foundation grants for his work. He has also co-founded Gameto, Inc., UbiquiTx, Inc., and AtomBioworks, Inc., which translates his research into fertility-related solutions, cancer therapeutics, and RNA medicines, respectively.
 
 ### 9:15am – 9:45am
-**Jacob Brenner**
+**Matthew Hayes**
 
-Jacob Brenner is a bioengineer and critical care physician, serving as the Principal Investigator of the Brenner Bioengineering Lab at the University of Pennsylvania. His research focuses on developing novel therapeutics using nanomedicine and genetic medicine. Dr. Brenner has a track record of inventing medical devices and nanomedicine technologies that have progressed to clinical studies and commercialization. He holds an MD and PhD from Stanford University and completed his postdoctoral training at the University of Pennsylvania.
+Matthew R. Hayes is the Albert J. Stunkard Professor in Psychiatry at the Perelman School of Medicine, University of Pennsylvania. He also serves as the Vice Chair of Basic and Translational Neuroscience in the Department of Psychiatry and directs the Molecular and Neural Basis of Psychiatric Disease Section. Dr. Hayes's research aims to identify and characterize neural signaling pathways that control food intake and body weight regulation, with the goal of developing treatments for obesity and related co-morbidities.
 
 ### 9:45am – 10:15am
 **Topher Brooke**
@@ -69,9 +69,9 @@ Topher Brooke is the CEO of MasterSwitch Bio, a biotech startup based in Ambler,
 Kara Spiller is a Professor in Drexel University's School of Biomedical Engineering, Science, and Health Systems. Her research interests include the role of immune cells in tissue repair and regeneration, the design of immunomodulatory biomaterials, and international engineering education. Dr. Spiller's work is funded by the NIH, the NSF, and private foundations. She has received several awards, including a Fulbright fellowship, the NSF CAREER award, and the United States Department of State ASPIRE prize.
 
 ### 10:45am – 11:15am
-**Matthew Hayes**
+**Jake Brenner**
 
-Matthew R. Hayes is the Albert J. Stunkard Professor in Psychiatry at the Perelman School of Medicine, University of Pennsylvania. He also serves as the Vice Chair of Basic and Translational Neuroscience in the Department of Psychiatry and directs the Molecular and Neural Basis of Psychiatric Disease Section. Dr. Hayes's research aims to identify and characterize neural signaling pathways that control food intake and body weight regulation, with the goal of developing treatments for obesity and related co-morbidities.
+Dr. Brenner, MD, PhD is an assistant professor & physician in the University of Pennsylvania's Dept of Medicine, where he takes care of ICU patients and runs a genetic medicine lab.  His lab developed the first safe & effective DNA-loaded lipid nanoparticles (DNA-LNPs), which enable expression of any size protein for >1 year per dose, in just the chosen cell type.  To commercialize their DNA-LNPs, the lab spun out ClearXpression, which aims to bring gene therapy to common chronic diseases, ranging from osteoarthritis to atherosclerosis. In 2025, the lab's DNA-LNPs received the Controlled Release Society's Gene Therapy Scientific Achievement award and Europe's Falling Walls Foundation listed the lab's DNA-LNPs as a Top 10 Breakthrough of the Year.
 
 ### 11:15am – 11:45am
 **Xiaoqiong Xia**

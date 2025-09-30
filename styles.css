@@ -230,4 +230,8 @@ h1 {
         margin-top: 10px;
         display: inline-block;
     }
+    
+    .year-content.active {
+        max-height: 5000px;
+    }
 }
