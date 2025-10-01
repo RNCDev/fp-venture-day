@@ -1,5 +1,5 @@
 ---
-version: "1.1.4"
+version: "1.1.5"
 last_updated: "2024-09-27"
 years:
   2025:
@@ -56,7 +56,7 @@ Pranam Chatterjee is an Assistant Professor of Bioengineering and Computer and I
 ### 9:15am – 9:45am
 **Matthew Hayes**
 
-Matthew R. Hayes is the Albert J. Stunkard Professor in Psychiatry at the Perelman School of Medicine, University of Pennsylvania. He also serves as the Vice Chair of Basic and Translational Neuroscience in the Department of Psychiatry and directs the Molecular and Neural Basis of Psychiatric Disease Section. Dr. Hayes's research aims to identify and characterize neural signaling pathways that control food intake and body weight regulation, with the goal of developing treatments for obesity and related co-morbidities.
+Matthew R. Hayes is the Albert J. Stunkard Professor in Psychiatry at the Perelman School of Medicine, University of Pennsylvania. He also serves as the Vice Chair of Basic and Translational Neuroscience in the Department of Psychiatry and directs the Molecular and Neural Basis of Psychiatric Disease Section. Dr. Hayes's research aims to identify and characterize neural signaling pathways that control food intake and body weight regulation, with the goal of developing treatments for obesity and related co-morbidities without the off-target side effects of nausea and vomiting.
 
 ### 9:45am – 10:15am
 **Topher Brooke**
