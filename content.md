@@ -1,5 +1,5 @@
 ---
-version: "1.1.5"
+version: "1.1.6"
 last_updated: "2024-09-27"
 years:
   2025:
@@ -66,7 +66,7 @@ Topher Brooke is the CEO of MasterSwitch Bio, a biotech startup based in Ambler,
 ### 10:15am – 10:45am
 **Kara Spiller**
 
-Kara Spiller is a Professor in Drexel University's School of Biomedical Engineering, Science, and Health Systems. Her research interests include the role of immune cells in tissue repair and regeneration, the design of immunomodulatory biomaterials, and international engineering education. Dr. Spiller's work is funded by the NIH, the NSF, and private foundations. She has received several awards, including a Fulbright fellowship, the NSF CAREER award, and the United States Department of State ASPIRE prize.
+Dr. Kara Spiller is the URBN Endowed Professor of Biomedical Innovation in Drexel University's School of Biomedical Engineering, Science, and Health Systems. Her research focuses on understanding the role of immune cells in tissue repair and regeneration and the design of immunomodulatory biomaterials and drug delivery systems for regenerative medicine. Her team invented a novel approach to macrophage cell therapy that utilizes scalable biomaterials for long-term phenotype control without genetic engineering, with applications in fibrosis and other indications.
 
 ### 10:45am – 11:15am
 **Jake Brenner**
