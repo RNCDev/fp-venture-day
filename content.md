@@ -1,5 +1,5 @@
 ---
-version: "1.1.6"
+version: "1.1.7"
 last_updated: "2024-09-27"
 years:
   2025:
@@ -76,7 +76,7 @@ Dr. Brenner, MD, PhD is an assistant professor & physician in the University of 
 ### 11:15am – 11:45am
 **Xiaoqiong Xia**
 
-Xiaoqiong Xia is a Postdoctoral Researcher in the Department of Psychiatry's Translational Neuroscience Program at the Perelman School of Medicine, University of Pennsylvania. She is also a Postdoctoral Fellow in the De La Fuente Lab. Dr. Xia's research focuses on translational neuroscience, aiming to bridge the gap between basic neuroscience discoveries and clinical applications in psychiatry, as well as developing innovative technologies to combat infectious diseases.
+Xiaoqiong Xia is a postdoctoral researcher in the Department of Psychiatry's Translational Neuroscience Program at the Perelman School of Medicine, University of Pennsylvania, and a postdoctoral fellow in the De La Fuente Lab. Her work focuses on peptide design conditioned on receptor structure and sequence using deep generative models, and on developing host–pathogen protein–protein interaction models to uncover previously unknown interactions and guide drug design against infectious diseases.
 
 ### 11:45am – 1:00pm
 **LUNCH**
