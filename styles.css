@@ -6,28 +6,42 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background: #f5f7fa;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf0 100%);
     padding: 20px;
+    min-height: 100vh;
 }
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
     overflow: hidden;
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .header {
-    background: #2c3e50;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     color: white;
     padding: 30px 20px;
     text-align: center;
     position: relative;
+    box-shadow: 0 4px 20px rgba(44, 62, 80, 0.3);
 }
 
 .supporters {
@@ -59,13 +73,23 @@ body {
 
 h1 {
     font-size: 4.0rem;
-    font-weight: 800;
+    font-weight: 900;
     margin: 0;
     color: rgba(255, 255, 255, 0.4);
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 0 4px 8px rgba(0,0,0,0.4);
     line-height: 0.8;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    animation: titleGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes titleGlow {
+    from {
+        text-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    }
+    to {
+        text-shadow: 0 4px 8px rgba(0,0,0,0.4), 0 0 20px rgba(255,255,255,0.1);
+    }
 }
 
 .version {
@@ -84,15 +108,40 @@ h1 {
 .year-section {
     margin-bottom: 20px;
     border: 1px solid #e9ecef;
-    border-radius: 6px;
+    border-radius: 8px;
     overflow: hidden;
     background: white;
+    transition: all 0.3s ease;
+    animation: slideInFromLeft 0.5s ease-out;
+    animation-fill-mode: both;
+}
+
+.year-section:nth-child(1) { animation-delay: 0.1s; }
+.year-section:nth-child(2) { animation-delay: 0.2s; }
+.year-section:nth-child(3) { animation-delay: 0.3s; }
+.year-section:nth-child(4) { animation-delay: 0.4s; }
+.year-section:nth-child(5) { animation-delay: 0.5s; }
+
+.year-section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .year-header {
-    background: #f8f9fa;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     padding: 15px 20px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.2rem;
     color: #2c3e50;
     cursor: pointer;
@@ -100,8 +149,11 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: background 0.2s ease;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
+
 
 .year-header-left {
     display: flex;
@@ -127,17 +179,29 @@ h1 {
 }
 
 .year-header:hover {
-    background: #e9ecef;
+    background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
 }
 
 .year-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .year-content.active {
     max-height: 2000px;
+    animation: expandContent 0.4s ease-out;
+}
+
+@keyframes expandContent {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .year-inner {
@@ -146,10 +210,53 @@ h1 {
 
 .session {
     margin-bottom: 20px;
-    padding: 15px;
-    background: #f8f9fa;
-    border-radius: 4px;
-    border-left: 3px solid #2c3e50;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    border-radius: 8px;
+    border-left: 4px solid #2c3e50;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    animation: slideInUp 0.5s ease-out;
+}
+
+.session::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(52, 152, 219, 0.05) 0%, rgba(41, 128, 185, 0.05) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 0;
+}
+
+.session:hover {
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    border-left-color: #3498db;
+}
+
+.session:hover::before {
+    opacity: 1;
+}
+
+.session > * {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .session:last-child {
@@ -158,50 +265,89 @@ h1 {
 
 .session-time {
     color: #d2691e;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.85rem;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(210, 105, 30, 0.2);
 }
 
 .session-speaker {
     color: #2c3e50;
-    font-size: 1.1rem;
-    margin-bottom: 8px;
-    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.session:hover .session-speaker {
+    color: #3498db;
 }
 
 .session-description {
     color: #555;
-    font-size: 0.9rem;
-    line-height: 1.6;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    transition: color 0.3s ease;
+}
+
+.session:hover .session-description {
+    color: #444;
 }
 
 .lunch {
-    background: #e8f5e8;
+    background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%);
     color: #2d5a2d;
     text-align: center;
-    padding: 15px;
-    border-radius: 4px;
-    font-weight: 600;
+    padding: 18px;
+    border-radius: 8px;
+    font-weight: 700;
     margin: 15px 0;
+    border-left: 4px solid #28a745;
+    transition: all 0.3s ease;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.lunch:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(40, 167, 69, 0.2);
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.01);
+    }
 }
 
 .arrow {
-    transition: transform 0.2s ease;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1.2rem;
+    color: #3498db;
 }
 
 .year-header.active .arrow {
     transform: rotate(90deg);
+    color: #2980b9;
 }
 
 @media (max-width: 768px) {
     body {
         padding: 10px;
+        background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf0 100%);
+    }
+    
+    .container {
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
     
     .header {
         padding: 20px 15px;
+        background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     }
     
     .content {
@@ -209,13 +355,14 @@ h1 {
     }
     
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 0.85;
+        font-weight: 900;
     }
     
     .year-supporters {
         flex-direction: column;
-        gap: 25px;
+        gap: 15px;
         margin-top: 10px;
     }
     
@@ -233,5 +380,18 @@ h1 {
     
     .year-content.active {
         max-height: 5000px;
+    }
+    
+    .session {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .session:hover {
+        transform: translateY(-1px) scale(1.005);
+    }
+    
+    .year-section:hover {
+        transform: translateY(-1px);
     }
 }
