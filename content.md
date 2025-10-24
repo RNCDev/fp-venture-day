@@ -1,5 +1,5 @@
 ---
-version: "1.2.0"
+version: "1.3.0"
 last_updated: "2024-09-27"
 years:
   2025:
@@ -74,9 +74,9 @@ Dr. Kara Spiller is the URBN Endowed Professor of Biomedical Innovation in Drexe
 Dr. Brenner, MD, PhD is an assistant professor & physician in the University of Pennsylvania's Dept of Medicine, where he takes care of ICU patients and runs a genetic medicine lab.  His lab developed the first safe & effective DNA-loaded lipid nanoparticles (DNA-LNPs), which enable expression of any size protein for >1 year per dose, in just the chosen cell type.  To commercialize their DNA-LNPs, the lab spun out ClearXpression, which aims to bring gene therapy to common chronic diseases, ranging from osteoarthritis to atherosclerosis. In 2025, the lab's DNA-LNPs received the Controlled Release Society's Gene Therapy Scientific Achievement award and Europe's Falling Walls Foundation listed the lab's DNA-LNPs as a Top 10 Breakthrough of the Year.
 
 ### 11:15am – 11:45am
-**Xiaoqiong Xia**
+**Anthony Phan**
 
-Xiaoqiong Xia is a postdoctoral researcher in the Department of Psychiatry's Translational Neuroscience Program at the Perelman School of Medicine, University of Pennsylvania, and a postdoctoral fellow in the De La Fuente Lab. Her work focuses on peptide design conditioned on receptor structure and sequence using deep generative models, and on developing host–pathogen protein–protein interaction models to uncover previously unknown interactions and guide drug design against infectious diseases.
+Anthony Phan is a research associate in Christopher A. Hunter's laboratory at the University of Pennsylvania School of Veterinary Medicine. He is co-lead author on groundbreaking research published in Science Immunology that demonstrates how adding interleukin-12 (IL-12) to mRNA vaccines can enhance CD8+ T-cell responses, improving protection against SARS-CoV-2, influenza, melanoma, and listeria infection. This work represents a significant advancement in vaccine design that could reduce injection frequency and dose-related adverse events while providing longer-lasting immunity benefits.
 
 ### 11:45am – 1:00pm
 **LUNCH**

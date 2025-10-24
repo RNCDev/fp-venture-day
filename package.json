@@ -1,6 +1,6 @@
 {
     "name": "fp-venture-day",
-    "version": "1.0.0",
+    "version": "1.3.0",
     "description": "Venture Day Archives - A static site for showcasing annual venture day presentations",
     "main": "build.js",
     "scripts": {
