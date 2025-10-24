@@ -97,7 +97,9 @@ function generateHTML(frontmatter, sessions) {
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>Venture Day Archives</title>
+    <title>Venture Day Archives - Innovation in Biotechnology</title>
+    <meta name="description" content="Explore the annual Venture Day Archives showcasing groundbreaking biotechnology presentations from leading researchers and entrepreneurs.">
+    <meta name="keywords" content="venture day, biotechnology, innovation, research, presentations, archives">
     <!-- Version ${frontmatter.version} - ${frontmatter.last_updated} -->
     
     <!-- Favicon -->
@@ -109,18 +111,21 @@ function generateHTML(frontmatter, sessions) {
     
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" as="style">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="version">v${frontmatter.version}</div>
+    <main class="container" role="main">
+        <header class="header" role="banner">
+            <div class="version" aria-label="Version">v${frontmatter.version}</div>
             <h1>Venture Day Archives</h1>
-        </div>
+        </header>
         
-        <div class="content">
+        <section class="content" role="main">
             ${Object.keys(sessions).sort((a, b) => b - a).map(year => generateYearSection(year, sessions[year], frontmatter.years[year])).join('\n')}
-        </div>
-    </div>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
@@ -132,40 +137,45 @@ function generateYearSection(year, sessions, yearMeta) {
   const supporters = yearMeta?.supporters || [];
   
   return `
-            <div class="year-section">
-                <div class="year-header" onclick="toggleYear(this)">
+            <article class="year-section" data-year="${year}">
+                <header class="year-header" onclick="toggleYear(this)" role="button" tabindex="0" aria-expanded="false" aria-controls="year-${year}-content">
                     <div class="year-header-left">
-                        <span>${year}</span>
+                        <h2 class="year-title">${year}</h2>
                         ${supporters.length > 0 ? `
-                        <div class="year-supporters">
+                        <div class="year-supporters" role="list" aria-label="Event supporters">
                             ${supporters.map(supporter => 
-                              `<a href="${supporter.url}" target="_blank" class="year-supporter-link">${supporter.name}</a>`
+                              `<a href="${supporter.url}" target="_blank" class="year-supporter-link" role="listitem" aria-label="Visit ${supporter.name}">${supporter.name}</a>`
                             ).join('\n                            ')}
                         </div>
                         ` : ''}
                     </div>
-                    <span class="arrow">▶</span>
-                </div>
-                <div class="year-content">
+                    <span class="arrow" aria-hidden="true">▶</span>
+                </header>
+                <div class="year-content" id="year-${year}-content" role="region" aria-labelledby="year-${year}-title">
                     <div class="year-inner">
                         ${sessions.map(session => generateSessionHTML(session)).join('\n                        ')}
                     </div>
                 </div>
-            </div>`;
+            </article>`;
 }
 
 // Generate session HTML
 function generateSessionHTML(session) {
   if (session.isLunch) {
-    return `<div class="lunch">${session.time} ${session.speaker}</div>`;
+    return `<div class="lunch" role="note" aria-label="Break period">
+                <time datetime="${session.time}">${session.time}</time>
+                <span>${session.speaker}</span>
+            </div>`;
   }
   
   return `
-                        <div class="session">
-                            <div class="session-time">${session.time}</div>
-                            <div class="session-speaker">${session.speaker}</div>
+                        <article class="session" role="article">
+                            <header class="session-header">
+                                <time class="session-time" datetime="${session.time}">${session.time}</time>
+                                <h3 class="session-speaker">${session.speaker}</h3>
+                            </header>
                             ${session.description ? `<div class="session-description">${session.description}</div>` : ''}
-                        </div>`;
+                        </article>`;
 }
 
 // Main build function

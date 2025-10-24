@@ -1,5 +1,5 @@
 ---
-version: "1.3.0"
+version: "1.4.0"
 last_updated: "2024-09-27"
 years:
   2025:
