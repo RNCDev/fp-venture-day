@@ -1,7 +1,16 @@
 ---
-version: "1.4.0"
-last_updated: "2024-09-27"
+version: "1.5.0"
+last_updated: "2025-10-29"
+default_year: 2025
 years:
+  2026:
+    supporters:
+      - name: "FRANKLIN PARK"
+        url: "https://www.franklinparkllc.com/"
+      - name: "Wexford"
+        url: "https://wexfordscitech.com/about/wexford-team/"
+      - name: "WILSON SONSINI"
+        url: "https://www.wsgr.com/en/people/matthew-j-meyer.html"
   2025:
     supporters:
       - name: "FRANKLIN PARK"
@@ -43,6 +52,44 @@ years:
 
 # Venture Day Archives
 
+## 2026
+
+### 8:30am – 8:45am
+**Opening Remarks**
+
+### 8:45am – 9:15am
+**TBD**
+
+TBD
+
+### 9:15am – 9:45am
+**TBD**
+
+TBD
+
+### 9:45am – 10:15am
+**TBD**
+
+TBD
+
+### 10:15am – 10:45am
+**TBD**
+
+TBD
+
+### 10:45am – 11:15am
+**TBD**
+
+TBD
+
+### 11:15am – 11:45am
+**TBD**
+
+TBD
+
+### 11:45am – 1:00pm
+**LUNCH**
+
 ## 2025
 
 ### 8:30am – 8:45am
@@ -80,7 +127,6 @@ Anthony Phan is a research associate in Christopher A. Hunter's laboratory at th
 
 ### 11:45am – 1:00pm
 **LUNCH**
-
 
 ## 2024
 

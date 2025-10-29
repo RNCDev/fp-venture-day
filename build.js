@@ -123,7 +123,7 @@ function generateHTML(frontmatter, sessions) {
         </header>
         
         <section class="content" role="main">
-            ${Object.keys(sessions).sort((a, b) => b - a).map(year => generateYearSection(year, sessions[year], frontmatter.years[year])).join('\n')}
+            ${Object.keys(sessions).sort((a, b) => b - a).map(year => generateYearSection(year, sessions[year], frontmatter.years[year], frontmatter.default_year)).join('\n')}
         </section>
     </main>
 
@@ -133,12 +133,13 @@ function generateHTML(frontmatter, sessions) {
 }
 
 // Generate year section HTML
-function generateYearSection(year, sessions, yearMeta) {
+function generateYearSection(year, sessions, yearMeta, defaultYear) {
   const supporters = yearMeta?.supporters || [];
+  const isDefault = defaultYear && String(year) === String(defaultYear);
   
   return `
-            <article class="year-section" data-year="${year}">
-                <header class="year-header" onclick="toggleYear(this)" role="button" tabindex="0" aria-expanded="false" aria-controls="year-${year}-content">
+            <article class="year-section" data-year="${year}" ${isDefault ? 'data-default="true"' : ''}>
+                <header class="year-header${isDefault ? ' active' : ''}" onclick="toggleYear(this)" role="button" tabindex="0" aria-expanded="${isDefault ? 'true' : 'false'}" aria-controls="year-${year}-content">
                     <div class="year-header-left">
                         <h2 class="year-title">${year}</h2>
                         ${supporters.length > 0 ? `
@@ -151,7 +152,7 @@ function generateYearSection(year, sessions, yearMeta) {
                     </div>
                     <span class="arrow" aria-hidden="true">▶</span>
                 </header>
-                <div class="year-content" id="year-${year}-content" role="region" aria-labelledby="year-${year}-title">
+                <div class="year-content ${isDefault ? 'active' : ''}" id="year-${year}-content" role="region" aria-labelledby="year-${year}-title">
                     <div class="year-inner">
                         ${sessions.map(session => generateSessionHTML(session)).join('\n                        ')}
                     </div>
