@@ -14,6 +14,7 @@ Visit: [https://rncdev.github.io/fp-venture-day/](https://rncdev.github.io/fp-ve
 - **Collapsible Years**: Easy navigation through different event years
 - **Supporter Integration**: Dynamic supporter links per year
 - **Version Tracking**: Built-in version numbering for easy updates
+- **Analytics**: Microsoft Clarity integration for user behavior insights
 
 ## 🎨 Design
 
@@ -213,6 +214,7 @@ years:
 - **Cache Control**: Optimized headers to prevent caching issues
 - **Mobile First**: Responsive design with mobile optimization
 - **Performance**: Minimal dependencies, fast loading
+- **Analytics**: Microsoft Clarity for user behavior tracking and insights
 
 ## 📱 Browser Support
 
@@ -248,6 +250,7 @@ npm run dev
 - **Build Issues**: Check YAML syntax in frontmatter and Markdown formatting
 - **Deployment Issues**: Check your local build and ensure `index.html` is committed.
 - **Content Issues**: Validate supporter URLs and speaker name formatting
+- **Analytics Issues**: See `CLARITY_SETUP.md` for Microsoft Clarity setup and troubleshooting
 
 ## 📞 Contact
 
