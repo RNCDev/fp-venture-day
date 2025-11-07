@@ -7,7 +7,7 @@ years:
     supporters:
       - name: "FRANKLIN PARK"
         url: "https://www.franklinparkllc.com/"
-      - name: "Wexford"
+      - name: "WEXFORD"
         url: "https://wexfordscitech.com/about/wexford-team/"
       - name: "WILSON SONSINI"
         url: "https://www.wsgr.com/en/people/matthew-j-meyer.html"
